@@ -1,0 +1,22 @@
+# Replit
+.replit
+.config/
+
+# Environment / secrets
+.env
+*.env
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Local / sample data
+sample_data/
+attached_assets/
+uploads/
