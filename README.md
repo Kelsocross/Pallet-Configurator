@@ -2,6 +2,17 @@
 
 A browser-based pallet calculator and configurator for project managers in logistics and shipping. Define carton/box measurements, configure pallets with multiple box sizes, and generate optimized pallet configurations that respect footprint and height constraints for LTL shipping.
 
+## Screenshots
+
+### Full App Overview — Mixed Box Configuration
+![App Overview](docs/images/app-overview.png)
+
+### 3D Visualization, Pallet Settings & Layer Views
+![Layer Views](docs/images/layer-views.png)
+
+### PDF Export Report
+![PDF Report](docs/images/pdf-report.png)
+
 ## Features
 
 - **Multi-Box Support**: Add multiple box types with different dimensions and optional weight
@@ -57,8 +68,8 @@ npm run dev
 
 1. **Set Pallet Dimensions**: Configure the pallet footprint (length, width) and maximum stack height
 2. **Add Boxes**: Define box external dimensions (L x W x H) and optional weight
-3. **Calculate**: Click "Calculate" to generate an optimized pallet configuration
-4. **Visualize**: View the 3D representation of how boxes are stacked
+3. **Calculate**: Click "Optimize" to generate an optimized pallet configuration
+4. **Visualize**: View the interactive 3D representation of how boxes are stacked
 5. **Export**: Download a PDF report with optional layer views
 
 ## Project Structure
@@ -76,7 +87,7 @@ npm run dev
 │   └── storage.ts        # Data storage interface
 ├── shared/               # Shared types and schemas
 │   └── schema.ts         # Drizzle schema and Zod types
-└── migrations/           # Database migrations
+└── docs/                 # Documentation and screenshots
 ```
 
 ## License
